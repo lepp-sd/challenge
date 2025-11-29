@@ -1,0 +1,180 @@
+body {
+    margin: auto;
+    width: 95vw;
+}
+
+header {
+    position:sticky;
+    background-color: white;
+    top: 0;
+    font-size: 18px;
+    margin-top: 20px;
+    min-width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+    vertical-align: middle;
+    /* border: 3px solid black; */
+}
+
+.logo {
+    border-right: 2px solid black;
+    padding-right: 16px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+div {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:auto;
+    gap: 16px;
+}
+
+div img{
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.aldiv {
+    display: block;
+    padding-left: 2rem;
+}
+
+.aldiv h1{
+    font-size: 36px;
+    
+    
+}
+
+.aldiv p{
+    font-size: 24px;
+    padding-block: 4rem;
+    border-top: 1px solid black;
+}
+
+.button {
+    padding-inline: 6rem;
+    padding-block: 1rem;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 24px;
+    letter-spacing: .3rem;
+    display:block;
+    /* min-width: 100%; */
+
+}
+
+.masodiksor {
+    /* display: block; */
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 2rem;
+}
+
+.masodik1{
+    min-width: 100%;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    a a
+    b b;
+}
+
+.masodik1 h2 {
+    /* grid-row: 1/2; */
+    min-width: 100%;
+    /* display: grid; */
+    grid-row-start: 1;
+    text-align: center;
+    align-items: center;
+    /* margin: auto; */
+}
+
+.masodik1 p{
+    grid-row-start: 2;
+    grid-area: b b;
+    /* display: inline-block; */
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    border: 1px solid black;
+    
+}
+
+.masodik2 {
+    border-left: 1px solid black;
+    padding-left: 2rem;
+}
+
+.divgrid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid black;
+    
+}
+
+.alsosor{
+    font-size: 10px;
+}
+
+.felsosor {
+    font-size: 36px;
+    font-weight: 300;
+    padding-top: -1rem;
+    
+}
+
+.lorem {
+    padding-inline: 36px;
+}
+
+footer{
+    padding-block: 26px;
+    text-align: right;
+    position:sticky;
+    bottom: 0;
+    background-color: white;
+    font-size: 18px;
+    border-top: 1px solid black;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    padding-inline: 24px;
+    border-left: 1px solid black;
+}
+
+.jobbrafooter {
+    align-items: left;
+}
+
+/*     
+    margin-top: 20px;
+    min-width: 100%;
+   
+    padding-bottom: 12px; */
